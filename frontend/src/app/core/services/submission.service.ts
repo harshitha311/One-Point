@@ -7,7 +7,7 @@ import { FormSubmission } from '../models/models';
   providedIn: 'root'
 })
 export class SubmissionService {
-  private apiUrl = 'https://onepoint-production-9672.up.railway.app/submissions';
+  private apiUrl = 'https://onepoint-production-9672.up.railway.app/api/submissions';
 
   constructor(private http: HttpClient) {}
 

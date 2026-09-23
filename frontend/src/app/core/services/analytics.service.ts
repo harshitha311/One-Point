@@ -7,9 +7,9 @@ import { DashboardMetrics, FormAnalytics } from '../models/models';
   providedIn: 'root'
 })
 export class AnalyticsService {
-  private dashboardUrl = 'http://localhost:8081/api/dashboard';
-  private analyticsUrl = 'http://localhost:8081/api/analytics';
-  private exportUrl = 'http://localhost:8081/api/export';
+  private dashboardUrl = 'https://onepoint-production-9672.up.railway.app/dashboard';
+  private analyticsUrl = 'https://onepoint-production-9672.up.railway.app/analytics';
+  private exportUrl = 'https://onepoint-production-9672.up.railway.app/export';
 
   constructor(private http: HttpClient) {}
 

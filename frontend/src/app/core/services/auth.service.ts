@@ -7,7 +7,7 @@ import { AuthResponse, User } from '../models/models';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:8081/api/auth';
+  private apiUrl = 'https://onepoint-production-9672.up.railway.app/auth';
   currentUser = signal<User | null>(this.getUserFromStorage());
 
   constructor(private http: HttpClient) {}

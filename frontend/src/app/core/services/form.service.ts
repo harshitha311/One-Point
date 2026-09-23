@@ -7,9 +7,9 @@ import { Form, FormStatus, FormTemplate, RuleGenerationResponse } from '../model
   providedIn: 'root'
 })
 export class FormService {
-  private apiUrl = 'http://localhost:8081/api/forms';
-  private templateUrl = 'http://localhost:8081/api/templates';
-  private ruleEngineUrl = 'http://localhost:8081/api/rule-engine';
+  private apiUrl = 'https://onepoint-production-9672.up.railway.app/forms';
+  private templateUrl = 'https://onepoint-production-9672.up.railway.app/templates';
+  private ruleEngineUrl = 'https://onepoint-production-9672.up.railway.app/rule-engine';
 
   constructor(private http: HttpClient) {}
 
